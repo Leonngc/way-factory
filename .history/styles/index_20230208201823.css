@@ -45,17 +45,14 @@ menu > ul > li{
     padding: 6px;
 }
 .container-slogan{
-    margin: 40px;
+    margin: 35px;
 }
 .slogans{
     text-align: center; 
     font-family: var(--bebas-neue);
-    margin-top: 25px;
 }
 
-.slogans > h2{
-    font-size: 1.8em;
-}
+
 
 .slogans > p{
     font-size: 1.6em;

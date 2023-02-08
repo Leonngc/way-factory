@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --bebas-neue: font-family: 'Bebas Neue', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+#menu-burguer{
+    background-color: rgba(245, 245, 220, 0);
+    color: white;
+    font-size: 26px;
+}
+
+menu > ul > li >  a{
+    text-decoration: none;
+}

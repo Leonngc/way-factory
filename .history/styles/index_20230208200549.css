@@ -1,11 +1,9 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
 :root{
     --bebas-neue: 'Bebas Neue', cursive;
-    --dosis:'Dosis', sans-serif;
 }
 
 *{
@@ -20,18 +18,19 @@ header{
     max-width: 100vw;
     width: 100vw;
     margin-bottom: 25px;
+    border-bottom: 10px solid black;
 }
+
 #menu-burguer{
     background-color: rgba(245, 245, 220, 0);
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     padding: 9px;
 }
 ul{
     background-color: white;
     max-width: 100vw;
     width: 100vw;
-    display: none;
 }
 menu > ul > li > a{
     color: rgb(3, 3, 3);
@@ -44,20 +43,8 @@ menu > ul > li{
     list-style: circle;
     padding: 6px;
 }
-.container-slogan{
-    margin: 40px;
-}
-.slogans{
-    text-align: center; 
-    font-family: var(--bebas-neue);
-    margin-top: 25px;
-}
 
-.slogans > h2{
-    font-size: 1.8em;
-}
-
-.slogans > p{
-    font-size: 1.6em;
-    font-family: var(--dosis);
+main{
+    margin-top: 90px;
+    
 }
