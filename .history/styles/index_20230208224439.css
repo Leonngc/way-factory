@@ -122,15 +122,8 @@ section > h2{
     border-radius: 23px;
 }
 
-.container-services > button:hover{
-    background-color: white;
-    color: #679436;
-    border: solid 2px #679436;
-}
-
-.container-services > button:active{
-    padding: 14px;
-    font-size: 18;
+.container-services > button :hover{
+    
 }
 
 

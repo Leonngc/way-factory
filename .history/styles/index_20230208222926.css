@@ -70,21 +70,22 @@ section{
 section > h2{
     font-family: var(--bebas-neue);
     padding: 20px;
-    font-size: 2em;
-    text-decoration: underline;
 }
 
+.container-services{
+    margin-top: 50px;
+}
 
 .container-services > h3{
     font-family: var(--bebas-neue);
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 .container-services > div{
-    margin-top: 40px;
+    margin-top: 50px;
     background-color: black;
     color: white;
-    height: 700px;
+    height: 300px;
     padding: 12px;
     border-radius: 12px;
 }
@@ -101,36 +102,4 @@ section > h2{
     font-family: var(--dosis);
     font-size: 1.4em;
     padding: 14px;
-    margin-bottom: 40px;
 }
-
-.container-img > img{
-    border: 4px solid white;
-    border-radius: 16px;
-    width: 360px;
-}
-
-.container-services > button{
-    margin-top: 30px;
-    margin-bottom: 40px;
-    background-color: #679436;
-    padding: 16px;
-    border: none;
-    color: white;
-    font-family: var(--bebas-neue);
-    font-size: 20px;
-    border-radius: 23px;
-}
-
-.container-services > button:hover{
-    background-color: white;
-    color: #679436;
-    border: solid 2px #679436;
-}
-
-.container-services > button:active{
-    padding: 14px;
-    font-size: 18;
-}
-
-
