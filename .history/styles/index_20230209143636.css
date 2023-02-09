@@ -136,15 +136,6 @@ section > h2{
 footer{
     background-color: black;
     color: rgb(255, 255, 255);
-    padding: 30px;
-    font-family: var(--bebas-neue);
-    font-size: 20px;
 }
-
-footer > ul{
-    list-style: square;
-}
-
-
 
 

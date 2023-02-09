@@ -137,14 +137,7 @@ footer{
     background-color: black;
     color: rgb(255, 255, 255);
     padding: 30px;
-    font-family: var(--bebas-neue);
-    font-size: 20px;
+    fon
 }
-
-footer > ul{
-    list-style: square;
-}
-
-
 
 
