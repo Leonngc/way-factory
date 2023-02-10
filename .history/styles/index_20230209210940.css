@@ -37,16 +37,10 @@ header{
 
 #links-menu > li > a{
     font-size: 1.4em;
-    padding: 8px;
 }
-
-#links-menu > li > a:hover{
-    color: #369492;
-}
-
 
 menu{
-    margin-bottom: 300px;
+    marg
 }
 
 menu > ul > li > a{
@@ -62,7 +56,6 @@ menu > ul > li{
 }
 .container-slogan{
     margin: 40px;
-    margin-top: 85px;
 }
 .slogans{
     text-align: center; 

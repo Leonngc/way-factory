@@ -24,7 +24,7 @@ header{
 #menu-burguer{
     background-color: rgba(245, 245, 220, 0);
     color: white;
-    font-size: 32px;
+    font-size: 30px;
     padding: 9px;
     margin-left: 9px;
 }
@@ -34,21 +34,6 @@ header{
     width: 100vw;
     display: none;
 }
-
-#links-menu > li > a{
-    font-size: 1.4em;
-    padding: 8px;
-}
-
-#links-menu > li > a:hover{
-    color: #369492;
-}
-
-
-menu{
-    margin-bottom: 300px;
-}
-
 menu > ul > li > a{
     color: rgb(3, 3, 3);
     font-family: var(--bebas-neue);
@@ -62,7 +47,6 @@ menu > ul > li{
 }
 .container-slogan{
     margin: 40px;
-    margin-top: 85px;
 }
 .slogans{
     text-align: center; 
