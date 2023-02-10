@@ -1,0 +1,37 @@
+
+
+main{
+    text-align: center;
+    margin: 30px;
+}
+
+main > h2{
+    font-family: var(--bebas-neue);
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+main > p{
+    font-family: var(--dosis);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 133px;
+    padding: 25px;
+    font-size: 18px;
+    font-family: var(--bebas-neue);
+}
+
+footer > ul > li{
+    list-style: square;
+}
+
+footer > ul > li > a{
+    color: white;
+    padding: 8px;
+}
+

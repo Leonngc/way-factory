@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+:root{
+    --bebas-neue: 'Bebas Neue', cursive;
+    --dosis:'Dosis', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-slogan{
+    margin: 40px;
+    margin-top: 85px;
+}
+.slogans{
+    text-align: center; 
+    font-family: var(--bebas-neue);
+    margin-top: 25px;
+}
+
+.slogans > h2{
+    font-size: 1.8em;
+}
+
+.slogans > p{
+    font-size: 1.6em;
+    font-family: var(--dosis);
+}
+
+section{
+    text-align: center;
+    margin-top: 100px;
+}
+
+section > h2{
+    font-family: var(--bebas-neue);
+    padding: 20px;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+
+.container-services > h3{
+    font-family: var(--bebas-neue);
+    font-size: 1.8em;
+}
+
+.container-services > div{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    height: 700px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.container-services > div > ul > li{
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    font-family: var(--bebas-neue);
+}
+
+.container-services > div > p{
+    font-family: var(--dosis);
+    font-size: 1.4em;
+    padding: 14px;
+    margin-bottom: 40px;
+}
+
+.container-img > img{
+    border: 4px solid white;
+    border-radius: 16px;
+    width: 360px;
+}
+
+.container-services > button{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #679436;
+    padding: 16px;
+    border: none;
+    color: white;
+    font-family: var(--bebas-neue);
+    font-size: 20px;
+    border-radius: 23px;
+}
+
+.container-services > button:hover{
+    background-color: white;
+    color: #679436;
+    border: solid 2px #679436;
+}
+
+.container-services > button:active{
+    padding: 14px;
+    font-size: 18;
+}
+
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-family: var(--bebas-neue);
+    font-size: 20px;
+}
+
+footer > ul{
+    list-style: square;
+}
+
+footer > ul > li > a{
+    color: #369492;
+}
+
+
